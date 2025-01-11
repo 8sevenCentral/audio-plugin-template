@@ -8,7 +8,7 @@ AudioPluginAudioProcessorEditor::AudioPluginAudioProcessorEditor(
   juce::ignoreUnused(processorRef);
   // Make sure that before the constructor has finished, you've set the
   // editor's size to whatever you need it to be.
-  setSize(400, 300);
+  setSize(600, 400);
 }
 
 AudioPluginAudioProcessorEditor::~AudioPluginAudioProcessorEditor() {}
@@ -20,8 +20,8 @@ void AudioPluginAudioProcessorEditor::paint(juce::Graphics& g) {
       getLookAndFeel().findColour(juce::ResizableWindow::backgroundColourId));
 
   g.setColour(juce::Colours::white);
-  g.setFont(15.0f);
-  g.drawFittedText("Hello World!", getLocalBounds(),
+  g.setFont(30.0f);
+  g.drawFittedText("Hey Whats up!", getLocalBounds(),
                    juce::Justification::centred, 1);
 }
 

@@ -1,6 +1,8 @@
 #include "YourPluginName/PluginProcessor.h"
 #include "YourPluginName/PluginEditor.h"
 
+#define JucePlugin_Name "YourPluginName"  // added ct 01-11-2025
+
 namespace audio_plugin {
 AudioPluginAudioProcessor::AudioPluginAudioProcessor()
     : AudioProcessor(
